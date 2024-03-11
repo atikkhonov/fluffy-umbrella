@@ -3,8 +3,8 @@ import "./styles/index.scss";
 import { Link } from "react-router-dom";
 import { MainPageLazy } from "./pages/MainPage/MainPage.lazy";
 import { AboutPageLazy } from "./pages/AboutPage/AboutPage.lazy";
-import { Suspense, useContext } from "react";
-import { ThemeContext } from "./theme/ThemeContext";
+import { Suspense } from "react";
+import { useTheme } from "./theme/useTheme";
 
 export enum Theme {
   LIGHT = "light",
@@ -12,11 +12,7 @@ export enum Theme {
 }
 
 const App = () => {
-  const { theme, setTheme } = useContext(ThemeContext);
-
-  const toggleTheme = () => {
-    setTheme(theme === Theme.DARK ? Theme.LIGHT : Theme.DARK);
-  };
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <div className={`app ${theme}`}>
