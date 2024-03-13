@@ -16,3 +16,6 @@
 
 # comments
 *.txt
+
+# IDE
+.idea

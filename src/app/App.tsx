@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./styles/index.scss";
 import { Link } from "react-router-dom";
-import { MainPageLazy } from "./pages/MainPage/MainPage.lazy";
-import { AboutPageLazy } from "./pages/AboutPage/AboutPage.lazy";
 import { Suspense } from "react";
-import { useTheme } from "./theme/useTheme";
-import { classNames } from "./helpers/classNames/classNames";
+import { useTheme } from "app/providers/ThemeProvider";
+import { classNames } from "shared/lib/classNames/classNames";
+import { MainPage } from "pages/MainPage";
+import { AboutPage } from "pages/AboutPage";
 
 export enum Theme {
   LIGHT = "light",
@@ -22,8 +22,8 @@ const App = () => {
       <Link to="/about">About</Link>
       <Suspense fallback={<div> "Loading..."</div>}>
         <Routes>
-          <Route path={"/"} element={<MainPageLazy />} />
-          <Route path={"/about"} element={<AboutPageLazy />} />
+          <Route path={"/"} element={<MainPage />} />
+          <Route path={"/about"} element={<AboutPage />} />
         </Routes>
       </Suspense>
     </div>
