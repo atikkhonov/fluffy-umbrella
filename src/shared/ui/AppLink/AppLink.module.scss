@@ -1,11 +1,11 @@
 .AppLink {
-  color: var(--primary-color);
+  padding: 16px;
+  border-radius: 64px;
+
+  color: var(--primary-colorful-color);
+  transition: var(--primary-transition);
 }
 
-.primary {
-  color: var(--primary-color);
-}
-
-.inverted {
-  color: var(--inverted-primary-color);
+.AppLink:hover {
+  background-color: var(--secondary-bg-color);
 }

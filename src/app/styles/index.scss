@@ -4,10 +4,13 @@
 @import "themes/light";
 
 .app {
-  font-style: var(--font-m);
+  font: var(--font-m);
+  letter-spacing: var(--letter-spacing);
 
-  background-color: var(--bg-color);
-  color: var(--primary-color);
+  background-color: var(--primary-bg-color);
+  color: var(--primary-main-color);
 
   min-height: 100vh;
+
+  position: relative;
 }

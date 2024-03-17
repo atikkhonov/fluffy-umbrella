@@ -7,7 +7,9 @@
 input,
 button,
 textarea,
-select {
+select,
+a {
   margin: 0;
   font: inherit;
+  text-decoration: none;
 }

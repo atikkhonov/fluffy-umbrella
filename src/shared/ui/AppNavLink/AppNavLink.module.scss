@@ -1,0 +1,12 @@
+.AppNavLink {
+  padding: 16px;
+  border-radius: 64px;
+
+  color: var(--primary-main-color);
+}
+
+.AppNavLink:hover {
+  background-color: var(--secondary-bg-color);
+
+  transition: var(--primary-transition);
+}

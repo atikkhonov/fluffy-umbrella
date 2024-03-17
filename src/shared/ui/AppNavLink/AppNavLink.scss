@@ -1,0 +1,8 @@
+.active {
+  color: var(--primary-colorful-color);
+  background-color: var(--secondary-colorful-color);
+}
+
+.active:hover {
+  background-color: var(--secondary-colorful-color);
+}

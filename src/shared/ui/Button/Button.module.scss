@@ -1,0 +1,19 @@
+.Button {
+  padding: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: var(--primary-transition);
+  border: none;
+}
+
+.clear {
+  background: none;
+}
+
+.circle {
+  border-radius: 50%;
+
+  -webkit-box-shadow: var(--shadow-options);
+  -moz-box-shadow: var(--shadow-options);
+  box-shadow: var(--shadow-options);
+}
