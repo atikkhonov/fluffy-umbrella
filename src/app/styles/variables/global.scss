@@ -1,6 +1,5 @@
 :root {
-  // --font-family-main: Consolas, "Times New Roman", Serif;
-  // --font-family-main: Montserrat, "Montserrat", sans-serif;
+  // Fonts
   --font-family-main: Optimistic Display, -apple-system, ui-sans-serif,
     system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
     Noto Color Emoji;
@@ -8,9 +7,6 @@
   --font-style: normal;
   --font-weight: 500;
   --letter-spacing: 0.15em;
-
-  --primary-transition: 0.2s;
-  --secondary-transition: 0.3s;
 
   --font-size-m: 16px;
   --font-line-m: 24px;
@@ -22,5 +18,14 @@
   --font-l: var(--font-style-l) var(--font-size-l) / var(--font-line-l)
     var(--font-family-main);
 
+  // Transitions
+  --primary-transition: 0.2s;
+  --secondary-transition: 0.3s;
+
+  // Navbar
   --navbar-height: 64px;
+
+  // Sidebar
+  --sidebar-width: 320px;
+  --sidebar-width-collapse: 80px;
 }

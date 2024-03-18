@@ -14,3 +14,13 @@
 
   position: relative;
 }
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper {
+  padding: 16px;
+  background-color: var(--secondary-bg-color);
+  flex-grow: 1;
+}
