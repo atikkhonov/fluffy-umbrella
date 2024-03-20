@@ -1,4 +1,4 @@
-.ThemeSwitcher {
+.LangSwitcher {
   width: 64px;
   height: 64px;
 
@@ -8,16 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  position: absolute;
-  right: 64px;
-  bottom: 32px;
 }
 
-.ThemeSwitcher:hover {
+.LangSwitcher:hover {
   background-color: var(--secondary-bg-color);
 }
 
-.ThemeSwitcher path {
+.LangSwitcher path {
   fill: var(--primary-main-color);
 }

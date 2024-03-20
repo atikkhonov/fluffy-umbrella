@@ -1,0 +1,19 @@
+.ThemeSwitcher {
+  width: 64px;
+  height: 64px;
+
+  color: var(--primary-main-color);
+  background-color: var(--primary-bg-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ThemeSwitcher:hover {
+  background-color: var(--secondary-bg-color);
+}
+
+.ThemeSwitcher path {
+  fill: var(--primary-main-color);
+}

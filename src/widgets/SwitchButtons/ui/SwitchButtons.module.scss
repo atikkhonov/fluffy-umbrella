@@ -1,0 +1,30 @@
+.SwitchButtons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  position: absolute;
+  right: 64px;
+  bottom: 32px;
+}
+
+.SwitchButtons button {
+  width: 64px;
+  height: 64px;
+  margin: 0 0 0 16px;
+
+  color: var(--primary-main-color);
+  background-color: var(--primary-bg-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SwitchButtons button:hover {
+  background-color: var(--secondary-bg-color);
+}
+
+.SwitchButtons button path {
+  fill: var(--primary-main-color);
+}
