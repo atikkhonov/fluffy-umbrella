@@ -4,5 +4,8 @@
   "Home page": "Home page",
   "Home": "Home",
   "About": "About",
-  "Page Not Found": "Page Not Found"
+
+  "Page Not Found": "Page Not Found",
+  "Something went wrong": "Oops! Something went wrong, this page does not exist...",
+  "Reload page": "Refresh"
 }
