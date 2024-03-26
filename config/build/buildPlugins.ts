@@ -28,7 +28,7 @@ export function buildPlugins({
       __IS_DEV__: JSON.stringify(isDev),
     }),
     new HotModuleReplacementPlugin(),
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({ openAnalyzer: false }),
     // new ReactRefreshWebpackPlugin(),
   ];
 }
